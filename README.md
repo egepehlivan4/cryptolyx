@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CRYPTOLYX | Next-Gen AI Crypto Terminal
 
-## Getting Started
+**CRYPTOLYX**, gerçek zamanlı veriler, algoritmik strateji testleri (backtesting) ve yapay zeka destekli piyasa analizi sunan profesyonel bir Fintech terminalidir. 
 
-First, run the development server:
+![Project Interface](https://img.shields.io/badge/Interface-Institutional_Dark-blue)
+![Tech Stack](https://img.shields.io/badge/Tech-Next.js_|_Tailwind_|_LightweightCharts-green)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Temel Özellikler
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **⚡ Canlı Veri Akışı:** Binance WebSocket API entegrasyonu ile BTC, ETH, SOL gibi majör coinlerin fiyatlarını milisaniyelik gecikmeyle takip edin.
+* **📊 Algoritmik Backtest:** Belirlediğiniz Hareketli Ortalama (MA) kesişim stratejilerini son 1000 günlük veriler üzerinde simüle edin ve kâr/zarar oranını görün.
+* **🧠 AI Market Insights:** RSI ve Trend verilerini harmanlayan kural tabanlı yapay zeka motoru ile anlık piyasa yorumları alın.
+* **🔔 Akıllı Alarm Sistemi:** Fiyat hedeflerinizi belirleyin; sistem WebSocket üzerinden fiyatı izler ve hedef vurulduğunda sizi uyarır.
+* **📈 Profesyonel Grafik Deneyimi:** TradingView standartlarında, zoom ve crosshair senkronizasyonlu interaktif grafik arayüzü.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Teknolojiler
 
-To learn more about Next.js, take a look at the following resources:
+* **Framework:** [Next.js 14+](https://nextjs.org/) (App Router)
+* **Grafik Motoru:** [Lightweight Charts](https://it.tradingview.com/lightweight-charts/) (TradingView)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Veri Kaynağı:** [Binance API](https://binance-docs.github.io/apidocs/spot/en/) (Rest & WebSockets)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Kurulum ve Çalıştırma
 
-## Deploy on Vercel
+Projeyi yerel makinenizde çalıştırmak için:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/egepehlivan4/cryptolyx.git](https://github.com/egepehlivan4/cryptolyx.git)
